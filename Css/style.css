@@ -155,8 +155,9 @@
   @media(max-width:767px){
     nav ul{
       display: none ;
+      width: 100%;
     }
-  }
+  
   header nav .toggle-menu:hover + ul{
     display: flex;
     flex-direction: column;
@@ -166,9 +167,9 @@
     background-color: rgba(0, 0, 0, 0.504);
   }
   header nav ul li a {
-    padding: 15px 1 !important;
+    padding: 15px  !important;
   }
-
+  }
   nav ul li a{
     display: block;
     text-decoration: none;
